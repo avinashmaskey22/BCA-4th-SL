@@ -36,7 +36,7 @@ switch (day) {
     Note : In javascript switch case can accept numbers, strings or boolean.
 */
 
-//Q. Even and odd number asking input from the user
+//Q. WAP to find even and odd number asking input from the user.
 
 var num = prompt("Please enter the number");
 var parseValue = parseInt(num);

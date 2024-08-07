@@ -5,7 +5,8 @@
     3. boolean
     4. null
     5. undefined
-    6. BigInt
+    6. BigInt (ES 2020): Large integers than a number type can hold
+    7. Symbol (ES 2015): Value that is unique and cannot be changed [Not useful for now]
  */
 
 //remember var or let is optional because javascript is loosely typed or dynamically typed.
@@ -36,7 +37,7 @@ let foodInfo = {
 }
 
 // console.log(foodInfo.name);
-console.log(foodInfo['price']);
+// console.log(foodInfo['price']);
 
 
 /* Important: Difference between type conversion and type coercion?

@@ -1,7 +1,7 @@
 /* for (var i = 1; i < 11; i++) {
     document.write("5 X " + i + " = " + (5 * i) + "<br>");
-}
- */
+} */
+
 
 //infinite loop example below
 /* for (var i = 1; ; i++) {

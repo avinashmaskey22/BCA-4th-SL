@@ -1,4 +1,9 @@
-/* Function Basics */
+/* Function Basics:
+ - A function in JavaScript is a block of code designed to perform a 
+   particular task. 
+ - Functions are fundamental building blocks in JavaScript and 
+   allow you to organize your code into reusable, manageable pieces. 
+*/
 
 //Declaring a function
 /* function greet() {
@@ -58,7 +63,7 @@ display(); */
 display();
 console.log(a); */
 
-//Block Scope (let and const are block scope; block are area within control statements)
+//Block Scope (let and const are block scope; block '{}' are area within control statements)
 /* if (5 > 4) {
     let i = 1;
     console.log(i);
