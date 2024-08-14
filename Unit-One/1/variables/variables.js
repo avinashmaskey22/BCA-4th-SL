@@ -28,6 +28,7 @@ var mobileNo; //undefined
 */
 
 //Object Example
+
 let foodInfo = {
     id: 1,
     name: "MOMO",
@@ -50,13 +51,12 @@ let foodInfo = {
 */
 
 //Type conversion
+const favNumber = "11";
+// console.log(favNumber);
+// console.log(Number(favNumber)); //it only converts to a string, a number or a boolean
 
-/* const favNumber = "11";
-console.log(favNumber);
-console.log(Number(favNumber)); */ //it only converts to a string, a number or a boolean
 
 //Type coercion
-
 // console.log("John Doe is " + 23 + " years old.");
 // console.log('50' - '40' - '10');
 // console.log('50' + '40' + '10'); 

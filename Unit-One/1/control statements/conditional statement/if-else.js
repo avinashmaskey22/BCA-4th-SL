@@ -1,11 +1,11 @@
-/* date = new Date();
+date = new Date();
 time = date.getHours(); // it returns from 0-23 hours
 
 if (time < 12) {
     document.write("Good Morning!");
 } else {
     document.write("Good Afternoon!");
-} */
+}
 
 /* document.write("<br>" + "<hr>");
 a = 10;

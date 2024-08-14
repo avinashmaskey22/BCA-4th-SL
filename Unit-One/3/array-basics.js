@@ -6,7 +6,7 @@
 
    Syntax:
     // Using array constructor or using new keyword
-    let array = new array("John Doe", 24, true);
+    let array = new Array("John Doe", 24, true);
 
     // Using the literal notation
     let array = ["John Doe", 24, true];
@@ -16,12 +16,15 @@
 
 //Accessing Array Elements
 const cars = ["Tesla", "Volvo", "BMW"];
-document.write(cars[0] + "<br>");
+// document.write(cars[0] + "<br>");
 
 //Changing or Updating Array elements
 cars[0] = "lamborghini";
-document.write(cars[0]);
-document.write("<br>" + cars);
+// document.write(cars[0]);
+// document.write("<br>" + cars);
 
 //returns length of an array
-document.write("<br>" + cars.length);
+// document.write("<br>" + cars.length);
+
+
+

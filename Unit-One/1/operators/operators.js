@@ -17,7 +17,7 @@
         -> Also called shorthand of if else statement
         
         -> e.g., var age = 21;
-                 var beverage = (age >= 21) ? "Hard Drinks" : "Juice"
+                 var beverage = (age >= 21) ? "Hard Drinks" : "Juice";
                  console.log(beverage);
 
 */
