@@ -98,3 +98,29 @@ myFunction(); */
 }
 
 myFunction(); */
+
+/* 
+Callback Function:
+    - A callback function is a function that you pass into another function as an argument, and it gets executed (or "called back") inside the other function. The main idea is that you're telling one function to run another function when it's done doing something or at a specific point in its process.
+
+    Simple Example:
+     -> Imagine you have a friend who is cooking dinner, and you ask them to call you when dinner is ready. 
+     -> In this case:
+        - You are like the main function.
+        - Your friend is like the callback function.
+        - When dinner is ready, your friend (the callback function) calls you to let you know.
+*/
+
+function cookDinner(callback) {
+    console.log("Cooking dinner...");
+
+    // After cooking is done, call the callback function
+    callback(); //Note: When you pass a function as an argument to another function, that argument is called a callback.
+}
+
+function dinnerIsReady() {
+    console.log("Dinner is ready! Let's eat!");
+}
+
+// Passing the dinnerIsReady function as a callback to cookDinner
+cookDinner(dinnerIsReady);

@@ -27,7 +27,7 @@
         -> JavaScript stores dates as number of milliseconds since January 01, 1970.
         -> Zero time is January 01, 1970 00:00:00 UTC.
         -> One day (24 hours) is 86 400 000 milliseconds. (1 sec = 1000 msec)
-        -> Now the time 'while preparing this note is': 1690209400213 milliseconds past January 01, 1970
+        -> Now the time 'while preparing this note is': 1690255220000 milliseconds past January 01, 1970
 
     JavaScript Date Input:
     -> There are generally 3 types of JavaScript date input formats:
