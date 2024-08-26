@@ -29,6 +29,7 @@
         -> One day (24 hours) is 86 400 000 milliseconds. (1 sec = 1000 msec)
         -> Now the time 'while preparing this note is': 1690255220000 milliseconds past January 01, 1970
 
+
     JavaScript Date Input:
     -> There are generally 3 types of JavaScript date input formats:
           - ISO Date: "2015-03-25" (The International Standard)
