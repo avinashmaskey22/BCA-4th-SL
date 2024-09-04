@@ -12,7 +12,7 @@ console.log(out); */
 console.log(ex[0].innerHTML); */
 
 //assigning or replacing text
-// document.getElementsByClassName('two')[0].innerHTML = "New H2 Example";
+// document.getElementsByClassName('two')[0] .innerHTML = "New H2 Example";
 
 //accessing value
 /* var el = document.getElementsByTagName('li');

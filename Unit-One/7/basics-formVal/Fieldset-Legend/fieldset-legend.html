@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Fieldset and Legend Examples</title>
+</head>
+
+<body>
+    <form action="" method="GET">
+        <fieldset style="width: 700px;">
+            <legend><b>Question of the Day</b></legend>
+
+            <label>How big of a problem is drug-related crime in the country where you live?</label>
+            <br><br>
+
+            <label for="r1"> Not a problem </label>
+            <input type="radio" name="drug" id="r1">
+
+            <label for="r2">Minor problem</label>
+            <input type="radio" name="drug" id="r2">
+
+            <label for="r3">Average problem</label>
+            <input type="radio" name="drug" id="r3">
+
+            <label for="r4">Serious problem</label>
+            <input type="radio" name="drug" id="r4">
+
+            <label for="r5">Very serious problem</label>
+            <input type="radio" name="drug" id="r5">
+
+            <br><br>
+            <label for="country">Country:</label>
+            <select id="country">
+                <option value="" selected disabled>--Select Any Option--</option>
+                <option value="np">Nepal</option>
+                <option value="us">America</option>
+                <option value="aus">Australia</option>
+                <option value="ita">Italy</option>
+                <option value="es">Spain</option>
+            </select>
+
+            <br><br>
+            <label>Gender:</label>
+
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male">
+
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female">
+
+            <label for="others">Others</label>
+            <input type="radio" name="gender" id="others"><br><br>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" style="width: 50px;"> <br><br>
+
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>

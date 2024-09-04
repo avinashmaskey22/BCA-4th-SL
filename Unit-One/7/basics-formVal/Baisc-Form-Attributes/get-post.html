@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+   <title>Difference Between Get and Post Method</title>
+</head>
+
+<body>
+   <!-- 
+        Method Attribute:
+        It specifices how to send the form data to a webserver. The data can be sent as URL 
+        variable, by using the HTTP get or as HTTP post method. 
+        
+        -> GET (default)
+        -> POST
+
+        A. GET:
+            -> sends form data as part of the URL.
+            -> Appends form data into the URL in name/value pairs.
+            -> The length of a URL is limited to 2048 characters.
+            -> Never use GET method if you have password or other sensitive 
+               information to be sent on the server.
+            -> Useful for form submission where user want to bookmark the result
+             (i.e. GET method can be bookmarked).
+            -> Get is better for non-secure data like, query strings in google.
+            -> Get cannot be used to send binary data. E.g., images or documents.
+
+        B. POST:
+            -> hides form data as a part of the URL.
+            -> Appends form data inside the body of the HTTP request (data is not 
+               shown in URL.)
+            -> The POST method doesnot have any restriction on data size to be sent.
+            -> Form submission with POST cannot be bookmarked.
+            -> The POST method can be used to send ASCII as well as binary data. 
+               E.g., image, word documents, etc.
+            -> The data sent by POST method goes through HTTP header so security 
+               depends on HTTP protocol. By using secure HTTP (or HTTPs) you can make 
+               sure that your information is secured.
+            -> POST is little safer than GET because the parameters are not stored 
+               in browser history or in web server logs.
+     -->
+
+   <!-- 
+        Q. Why get method can be bookmarked and post method cannot be bookmarked?
+        
+        Ans: An HTTP POST can be bookmarked, but since a bookmark only consists of 
+        the URL, all of the form parameters will be lost. This will often mean that 
+        the web server doesn't know what to do with the request, since it was 
+        expecting some form parameters.
+
+        If you submit a form via a GET request, all of the form parameters go into 
+        the URL (after the ?), so a bookmark will contain all of the information 
+        needed for the webserver to rebuild the page a second time.
+
+        Hence, get method can be bookmarked and post method cannot be bookmarked.
+
+      -->
+</body>
+
+</html>
