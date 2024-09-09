@@ -24,7 +24,7 @@
             var txtEmail = document.getElementById("uEmail").value;
 
             // abc@gmail.com
-            //abc@sdc.edu.np
+            //abc@thamescollege.edu.np
             //yourname@domain.extension(.extension) 
             //alphabet, numbers, ._+- //alphabet, number, - // alphabet 
 
@@ -32,7 +32,7 @@
 
             /* var regularExp = /^([a-z A-Z 0-9 ._-]+)@([a-z A-Z 0-9 -]+)\.([a-z]{2,20})$/; */
 
-            // var regularExp = /^([a-z A-Z 0-9 ._-]+)@([a-z A-Z 0-9 -]+)\.([a-z]{2,20})\.?([a-z]{2,20})?$/;
+            var regularExp = /^([a-z A-Z 0-9 \._-]+)@([a-z A-Z 0-9 -]+)\.([a-z]{2,20})(\.[a-z]{2,20})?$/;
 
             if (regularExp.test(txtEmail)) {
                 alert("Valid email address");
