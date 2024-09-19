@@ -36,8 +36,11 @@
     -> Some browsers will not let you delete a cookie if you don't specify the path.
 */
 
+document.cookie = "college=thames; expires=Wed, 11 Sep 2024 12:00:00 UTC";
+
+
 //Simple Example for creating a cookie
-// document.cookie = "name=dimaria; expires=Mon, 4 Mar 2024 12:00:00 UTC; path=/";
+// document.cookie = "name=dimaria; expires=Wed, 11 Sep 2024 12:00:00 UTC; path=/";
 
 //reading a cookie in console
 // console.log(document.cookie);
@@ -47,9 +50,9 @@
 
 /* Example for multiple cookies */
 
-/* document.cookie = "username=angel;expires=Mon, 4 Mar 2024 12:00:00 UTC;path=/";
+/* document.cookie = "username=angel;expires=Wed, 11 Sep 2024 12:00:00 UTC;path=/";
 
-document.cookie = "password=dimaria;expires=Mon, 4 Mar 2024 12:00:00 UTC;path=/"; */
+document.cookie = "password=dimaria;expires=Wed, 11 Sep 2024 12:00:00 UTC;path=/"; */
 
 // console.log(document.cookie);
 
@@ -65,7 +68,7 @@ console.log(arr); */
 //deleting cookie using function
 /* function deleteCookie(cookieName) {
     document.cookie = cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
-}
+} */
 
-deleteCookie('username');
-deleteCookie('password'); */
+// deleteCookie('username');
+// deleteCookie('password');

@@ -25,10 +25,12 @@
       if (regx.test(txt)) {
         document.getElementById("success").innerHTML = "Valid Number";
         document.getElementById("success").style.color = "green";
+        document.getElementById("error").innerHTML = "";
         return false;
       } else {
         document.getElementById("error").innerHTML = "Invalid Number";
         document.getElementById("error").style.color = "red";
+        document.getElementById("success").innerHTML = "";
         return false;
       }
     }
