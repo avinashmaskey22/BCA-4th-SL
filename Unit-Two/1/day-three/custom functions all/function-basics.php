@@ -69,8 +69,8 @@ echo $res; */
 
 
 /* Specifying a default value/argument or optional argument */
-/* 
-function mulNum($a, $b = 1)
+
+/* function mulNum($a, $b = 1)
 {
     $c = $a * $b;
     return $c;
@@ -80,7 +80,7 @@ $x = 10;
 $y = 20;
 $z = 30;
 
-$res = mulNum($x);
+$res = mulNum($x, $y);
 echo $res; */
 
 
@@ -94,26 +94,12 @@ echo $res; */
         exit;
     }
 }
+
 $array = array(
     'name',
     'address'
 );
 
-debug($array, true);
+debug($array, true); */
 
-echo "<b>Hello</b>"; */
-
-
-
-
-
-
-/* Understanding Variable Scope  */
-function demo()
-{
-    $a = 10;
-    echo $a;
-}
-
-// demo();
-// echo $a;
+// echo "<b>Hello</b>";

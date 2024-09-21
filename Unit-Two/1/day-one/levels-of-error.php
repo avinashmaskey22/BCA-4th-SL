@@ -5,7 +5,7 @@
         a) Warning: 
                 -> The operation performed on the variables are executed.
                 -> It returns the warning information.
-                -> Line's of code are also executed after the warning error.
+                -> Line's of code are executed before and after the warning error.
                 
         b) Fatal Error: 
                 -> The operation performed on the variables are not executed. 
