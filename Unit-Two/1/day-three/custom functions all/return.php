@@ -25,13 +25,13 @@
 echo add(10, 50); */
 
 //Example: Two (Returning array)
-/* function data($a, $b)
+function data($a, $b)
 {
     return [$a, $b];
 }
 
 echo "<pre>";
 print_r(data('Nepal', 44600));
-echo "</pre>"; */
+echo "</pre>";
 
 // var_dump(data('Nepal', 44600));

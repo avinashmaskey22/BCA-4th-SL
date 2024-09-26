@@ -38,12 +38,12 @@
     date('format', timestamp);    
 */
 
-$date = date('Y-m-d h:i:s A');
-// echo $date;
+/* $date = date('Y-m-d h:i:s A');
+echo $date; */
 echo "<br>";
 
-$timezone = date_default_timezone_get();
-// echo $timezone;
+/* $timezone = date_default_timezone_get();
+echo $timezone; */
 echo "<br>";
 
 $timezone = date_default_timezone_set('Asia/Kathmandu');
@@ -56,6 +56,6 @@ $date = date('Y-m-d h:i:s A');
 
 echo "<br>";
 
-/* 16th of December, 2022 */
+/* 26th of September, 2024 */
 $date = date('jS \of F, Y');
 echo $date;

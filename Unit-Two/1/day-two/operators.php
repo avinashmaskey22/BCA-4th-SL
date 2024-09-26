@@ -98,7 +98,7 @@ $c = null; //string null
 $x = 20;
 $y = 100;
 
-echo ($x <=> $y);
+// echo ($x <=> $y);
 
 
 /* Conditional Operator or Ternary Operator or short hand property of if else */

@@ -17,10 +17,10 @@ $income = 200;
 
 //Interpolating with curly braces
 
-/* $name = "Lionel Messi";
-$respect = "lov";
-
-echo "$name is {$respect}ed by every football fans in the world."; */
+/* $name = "Lionel Messi"; */
+/* $respect = "lov"; */
+/*  */
+/* echo "$name is {$respect}ed by every football fans in the world."; */
 
 
 echo "<br>";
