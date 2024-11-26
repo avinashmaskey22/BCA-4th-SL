@@ -9,10 +9,10 @@
 
 /* two ways of defining an array */
 $info = [
-    "Shanker Dev Campus",
-    "sdc@shankerdev.edu.np",
-    "Putalisadak",
-    11111111
+    "Thames International College",
+    "sot@thamescollege.edu.np",
+    "Baneshwor",
+    9999999999
 ];
 
 // echo $info;
@@ -26,10 +26,10 @@ var_dump($info);
 echo "</pre>"; */
 
 /* $infos = array(
-    "Shanker Dev Campus",
-    "sdc@thames.edu.np",
-    "Putalisadak",
-    11111111
+    "Thames International College",
+    "sot@thamescollege.edu.np",
+    "Baneshwor",
+    9999999999
 );
 
 
@@ -67,10 +67,10 @@ $person = array(
     'name' => "Ram Nepali",
     'email' => "ram.nepali@gmail.com",
     'address' => "Nepal",
-    'phone' => 988888888888
+    'phone' => 988888888888,
 );
 
-// echo $person['name'];
+// echo $person['email'];
 
 /* echo "<pre>";
 print_r($person);
@@ -78,4 +78,3 @@ echo "</pre>"; */
 
 // echo $person['email'];
 
-/* https:github.com/avinashmaskey22 */

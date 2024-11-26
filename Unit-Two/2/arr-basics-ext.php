@@ -13,11 +13,11 @@ echo "</pre>"; */
 
 
 // An array called $dinner with numeric keys
-$dinner[0] = 'Sweet Corn and Asparagus';
+/* $dinner[0] = 'Sweet Corn and Asparagus';
 $dinner[1] = 'Lemon Chicken';
 $dinner[2] = 'Braised Bamboo Fungus';
 
-/* echo "<pre>";
+echo "<pre>";
 print_r($dinner);
 echo "</pre>"; */
 

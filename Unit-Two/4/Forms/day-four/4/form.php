@@ -21,7 +21,7 @@ if (isset($_POST, $_POST['uName'], $_POST['uPass'])) {
 
 <body>
     <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        Username: <input type="text" name="uName"><br><br>
+        Username: <input type="text" name="uName"><br><br> 
         Password: <input type="password" name="uPass"><br><br>
 
         <input type="submit" value="Log In">

@@ -24,7 +24,7 @@ Note: This code checks if a cookie named user_timezone has been set
     <p>
         <?php
         // This code displays the current date and time in the user's timezone
-        echo "The current time is: " . date('Y-m-d H:i:s'); 
+        echo "The current date and time is: " . date('Y-m-d H:i:s'); 
         ?>
     </p>
 </body>

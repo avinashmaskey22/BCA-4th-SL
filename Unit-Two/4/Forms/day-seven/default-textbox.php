@@ -12,8 +12,8 @@
 */
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    $name = htmlentities($_POST['name']);
-    // echo $name;
+    $name = htmlspecialchars($_POST['name']);
+    echo $name;
 }
 
 ?>
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 <body>
     <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-        Your Name: <input type="text" name="name" value="<?php echo (isset($name)) ? $name : 'SDC'; ?>"><br><br>
+        Your Name: <input type="text" name="name" value="<?php echo (isset($name)) ? $name : 'Thames'; ?>"><br><br>
         <input type="submit" name="submit_form" value="Say Hello">
     </form>
 </body>
