@@ -28,7 +28,7 @@
         <input type="radio" name="gender" value="others"> Others <br><br>
 
         <input type="checkbox" name="hobbies[]" checked value="football"> Football
-        <input type="checkbox" name="hobbies[]"> Playing Guitar
+        <input type="checkbox" name="hobbies[]" value="playing guitar"> Playing Guitar
         <input type="checkbox" name="hobbies[]"> Cricket <br><br>
 
         City you live in: <select name="city">

@@ -13,7 +13,7 @@ if ($_FILES['image']['error'] == 0) {
         //file size is less than 1mb
 
         $ext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION); //returns file extension
-        
+
         if (in_array($ext, $allowed_ext)) {
             //allowed format
             //Image-123123.jpg

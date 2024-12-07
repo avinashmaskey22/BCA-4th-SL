@@ -1,5 +1,6 @@
 <?php
 /* Form Validation */
+
 $name = $email = $url = $gender = $country = $bio = $error = $success = "";
 $nameErr = $emailErr = "";
 

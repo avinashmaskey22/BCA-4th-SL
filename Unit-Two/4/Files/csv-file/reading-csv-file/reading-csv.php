@@ -14,9 +14,9 @@ if (($handle = fopen('file.csv', 'r')) != FALSE) {
         //     echo $data[$i] . "<br>";
         // }
 
-        foreach ($data as $value) {
+        /* foreach ($data as $value) {
             echo $value . "<br>";
-        }
+        } */
     }
     fclose($handle);
 }

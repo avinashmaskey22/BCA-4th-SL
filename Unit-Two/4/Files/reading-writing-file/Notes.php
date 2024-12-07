@@ -18,7 +18,7 @@ Q. What is the purpose of file handling in PHP?
    
    -  If the database has to do a full-table scan, it’s likely to be 
       slower than a file. That’s something database schemas are 
-      usually designed to avoid. It it’s a gigabyte database, and 
+      usually designed to avoid. If it’s a gigabyte database, and 
       the update is one row of a primary key or indexed field, the 
       database is likely to do a handful of small i/o operations, 
       while the file operation will have to read the whole thing.
@@ -33,6 +33,10 @@ Q. What is the purpose of file handling in PHP?
    
    -  Source: David Brower (Architect in Oracle)
 
+Note: 
+In PHP, resources are a special data type that holds a reference to 
+an external resource or handle. Resources are used to represent 
+connections or access to external entities, such as databases, files etc.
 
 Important functions for file handling in PHP:
 

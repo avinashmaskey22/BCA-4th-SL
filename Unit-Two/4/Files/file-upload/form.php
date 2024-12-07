@@ -11,7 +11,7 @@
 <body>
     <form action="process.php" method="POST" enctype="multipart/form-data">
 
-        Image Upload: <input type="file" name="image" required accept="image/*">
+        Image Upload: <input type="file" name="image" required accept="image/*" multiple>
 
         <br><br>
 
