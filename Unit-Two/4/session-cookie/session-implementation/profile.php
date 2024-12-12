@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if (isset($_SESSION, $_SESSION['is_logged_in']) && !empty($_SESSION['is_logged_in'])) {
     echo $_SESSION['success'];
 } else {

@@ -26,6 +26,5 @@ Definition's:
 ->  Cookie can store only one data type i.e. string
 
 -> Types of cookies:
-    a) Session cookies (destroys the user data when the browser is 
-       closed)
-    b) Persistent cookies (keeps the user data until the expiry date)
+    a. Session cookies (destroys the user data when the browser is closed)
+    b. Persistent cookies (keeps the user data until the expiry date)

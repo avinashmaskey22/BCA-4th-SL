@@ -1,7 +1,8 @@
 <?php
 //Creating a cookie
+
 $cookie_name = "name";
-$cookie_value = "shanker dev campus";
+$cookie_value = "Thames International College";
 
 setcookie($cookie_name, $cookie_value, time() + 20, "/");
 

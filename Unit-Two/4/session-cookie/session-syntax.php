@@ -17,5 +17,5 @@ echo $_SESSION['name'] . "<br>";
 unset($_SESSION['name']);
 echo $_SESSION['name'] . "<br>";
 
-//Destroying a session value
+// //Destroying a session value
 session_destroy(); //destroys all data registered to a session
