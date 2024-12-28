@@ -13,6 +13,7 @@
 class Fruit {
     public $name;
     public $color;
+
     public function __construct($name, $color) {
       $this->name = $name;
       $this->color = $color;
@@ -28,6 +29,7 @@ class Fruit {
       echo "Am I a fruit or a berry? ";
     }
   }
+  
   $strawberry = new Strawberry("Strawberry", "red");
   $strawberry->message();
   $strawberry->intro();

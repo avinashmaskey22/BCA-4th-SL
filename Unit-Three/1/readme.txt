@@ -1,0 +1,1 @@
+Please Note Interfaces and Namespaces are not in Syllabus.

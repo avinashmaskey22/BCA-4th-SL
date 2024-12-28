@@ -25,7 +25,6 @@
        object is destroyed.
 */
 
-
 class Book
 {
     public $title;
