@@ -1,9 +1,9 @@
 <?php
 require_once 'connect.php';
 
-if (isset($_GET['id']) && !empty($_GET['id'])) {
+if (isset($_GET['sid']) && !empty($_GET['sid'])) {
     //access granted
-    $id = (int)$_GET['id']; //data type casting
+    $id = (int)$_GET['sid']; //data type casting
 
     if ($id <= 0) {
         //cross checking if invalid id passed from url query e.g. id=asdjdas
@@ -12,7 +12,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     }
 
     //cross checking from if the error id value is passed from url query string e.g. id=13211513351
-    $sql_1 = "SELECT * FROM students WHERE id = " . $id;
+    $sql_1 = "SELECT * FROM students WHERE sid = " . $id;
     $query_1 = mysqli_query($conn, $sql_1);
 
     //validates if there is data in a table or not.
@@ -21,7 +21,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         exit;
     }
 
-    $sql = "DELETE FROM students WHERE id = " . $id;
+    $sql = "DELETE FROM students WHERE sid = " . $id;
     $query = mysqli_query($conn, $sql);
 
     if ($query) {

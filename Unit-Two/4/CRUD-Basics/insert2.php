@@ -7,14 +7,14 @@
 */
 
 //db connection
-$conn = mysqli_connect("localhost", "root", "", "demo", 3306);
+$conn = mysqli_connect("localhost", "root", "", "thames_bca", 3307);
 
-//inserting single row at a time
-$sql = "INSERT INTO try 
-            SET 
-            name = 'Angel Fabian',
-            email = 'angelfabiasasdaasnaksnsas@gmail.com',
-            number = 9863236929
+//inserting multiple row at a time
+$sql = "INSERT INTO students
+            (full_name, email, address, contact_number)
+            VALUES
+            ('Lionel Messi', 'lm@gmail.com', 'Rosario', 99999999),
+            ('Neymar', 'ny@gmail.com', 'Sao Paolo', 999998888)
         ";
 
 //executing a SQL query

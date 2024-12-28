@@ -8,7 +8,7 @@ $sql = "UPDATE students
         address = '" . $_POST['uaddress'] . "', 
         contact_number = '" . $_POST['unum'] . "'
         
-        WHERE id = " . $_GET['id'];
+        WHERE sid = " . $_GET['sid'];
 
 //executing a query in database
 $query = mysqli_query($conn, $sql);

@@ -9,7 +9,7 @@
 //databse connection
 require_once 'connect.php';
 
-// $conn = mysqli_connect("localhost", "root", "", "demo", 3306);
+// $conn = mysqli_connect("localhost", "root", "", "thames_bca", 3307);
 
 $sql = "INSERT INTO students
         SET

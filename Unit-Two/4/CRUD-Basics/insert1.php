@@ -7,14 +7,15 @@
 */
 
 //db connection
-$conn = mysqli_connect("localhost", "root", "", "sdc_b", 3306);
+$conn = mysqli_connect("localhost", "root", "", "thames_bca", 3307);
 
-//inserting multiple row at a time
-$sql = "INSERT INTO students
-            (full_name, email, address, contact_number)
-            VALUES
-            ('Lionel Messi', 'lm@gmail.com', 'Rosario', 99999999),
-            ('Neymar', 'ny@gmail.com', 'Sao Paolo', 999998888)
+//inserting single row at a time
+$sql = "INSERT INTO students 
+            SET 
+            full_name = 'Shyam Nepal',
+            email = 'shyam.nepal@gmail.com',
+            address = 'Nepal',
+            contact_number = 999999999999
         ";
 
 //executing a SQL query
