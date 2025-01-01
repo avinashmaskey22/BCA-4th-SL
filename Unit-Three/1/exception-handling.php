@@ -1,4 +1,14 @@
 <?php
+/* 
+    In programming, the try, catch, and finally blocks are used for 
+    handling exceptions (errors) during runtime in a structured way.
+
+    - try Block: Code that might throw an exception is written inside the try block.
+    - catch Block: If an exception occurs in the try block, the catch block is 
+      executed. It is used to handle specific or general exceptions.
+    - finally Block: This block contains code that will execute regardless of 
+      whether an exception occurred or not. It's often used for cleanup operations.
+*/
 
 // Function to divide two numbers
 function divide($numerator, $denominator) {

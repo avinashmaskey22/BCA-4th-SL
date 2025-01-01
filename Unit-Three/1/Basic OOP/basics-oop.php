@@ -42,7 +42,7 @@ OOP Terminologies:
       access to that data, making some attributes or methods private or protected, 
       and thus not accessible from outside the class. 
 
-    - Polymorphism: polymorphism is closely related to inheritance.Polymorphism 
+    - Polymorphism: polymorphism is closely related to inheritance. Polymorphism 
       allows objects of different classes to respond differently based on the 
       same message. To implement polymorphism in PHP, you can use either abstract 
       classes or interfaces. Polymorphism helps you create a generic framework 

@@ -42,6 +42,13 @@ Purpose of Using Interfaces:
     interfaces, helping to overcome the limitation of single inheritance in PHP 
     (since a class can only extend from one other class).
 
+Note: 
+   In PHP, multiple inheritance refers to the ability of a class to inherit 
+   properties and methods from more than one parent class. However, PHP does not 
+   support multiple inheritance in the traditional sense, as a class can only 
+   extend a single parent class. This limitation is to avoid the diamond problem, 
+   where ambiguity arises when two parent classes have methods with the same name.
+
 */
 
 interface parent1{
