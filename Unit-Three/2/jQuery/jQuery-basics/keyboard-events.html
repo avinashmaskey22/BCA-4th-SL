@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Keyboard Events Example</title>
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <input type="text" id="keydown-example" placeholder="Press any key (keydown)">
+    <br><br>
+    <input type="text" id="keyup-example" placeholder="Press and release keys (keyup)" size="25">
+
+    <p>Open the console to see the output.</p>
+
+    <script>
+        // Keydown Event: Triggered when a key is pressed
+        $(document).ready(function () {
+            $("#keydown-example").keydown(function (event) {
+                console.log("Key pressed: " + event.key);
+            });
+        });
+
+        // Keyup Event: Triggered when a key is released
+        $(document).ready(function () {
+            $("#keyup-example").keyup(function () {
+                console.log("Key released!");
+            });
+        });
+    </script>
+</body>
+
+</html>

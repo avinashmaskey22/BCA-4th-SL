@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+<h1>This ia an example of jQuery</h1>
+
+    <script>
+        //full syntax
+        $(document).ready(function () {
+            // alert("DOM is ready!");
+        });
+
+        //shorthand syntax
+        $(function () {
+            // alert("DOM is ready!");
+        });
+
+        //similar as inner html in JS
+        $(document).ready(function(){
+            var a = $('h1').html();
+            console.log(a);
+        });
+
+    </script>
+</body>
+
+</html>

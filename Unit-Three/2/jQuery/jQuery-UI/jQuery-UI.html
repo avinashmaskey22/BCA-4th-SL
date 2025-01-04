@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jQuery UI Examples</title>
+
+    <!-- jQuery Core -->
+    <script src="jquery.js"></script>
+
+    <!-- jQuery UI Library -->
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+   
+   <style>
+        .demo-box {
+            margin: 20px 0;
+        }
+
+        ul#sortable {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul#sortable li {
+            padding: 10px;
+            margin: 5px;
+            background: #d3d3d3;
+            border: 1px solid #aaa;
+            cursor: move;
+        }
+    </style>
+</head>
+<body>
+    <!-- Draggable -->
+    <div id="draggable" class="demo-box" style="width: 150px; height: 150px; background: lightblue; text-align: center; line-height: 150px;">
+        Drag me
+    </div>
+
+    <!-- Resizable -->
+    <div id="resizable" class="demo-box" style="width: 200px; height: 150px; background: lightcoral; text-align: center; line-height: 150px;">
+        Resize me
+    </div>
+
+    <!-- Datepicker -->
+    <label for="datepicker">Select Date:</label>
+    <input type="text" id="datepicker" class="demo-box">
+
+    <!-- Accordion -->
+    <div id="accordion" class="demo-box">
+        <h3>Section 1</h3>
+        <div>
+            <p>Content for Section 1.</p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+            <p>Content for Section 2.</p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+            <p>Content for Section 3.</p>
+        </div>
+    </div>
+
+    <!-- Dialog Box -->
+    <div id="dialog" title="Sample Dialog" class="demo-box">
+        <p>This is a dialog box!</p>
+    </div>
+    <button id="openDialog">Open Dialog</button>
+
+    <!-- Sortable -->
+    <ul id="sortable" class="demo-box">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Progress Bar -->
+    <div id="progressbar" class="demo-box"></div>
+
+    <script>
+        $(function() {
+            // Draggable
+            $("#draggable").draggable();
+
+            // Resizable
+            $("#resizable").resizable();
+
+            // Datepicker
+            $("#datepicker").datepicker();
+
+            // Accordion
+            $("#accordion").accordion();
+
+            // Dialog
+            $("#dialog").dialog({
+                autoOpen: false
+            });
+            $("#openDialog").click(function() {
+                $("#dialog").dialog("open");
+            });
+
+            // Sortable
+            $("#sortable").sortable();
+
+            // Progress Bar
+            $("#progressbar").progressbar({
+                value: 70 // Progress value in percentage
+            });
+        });
+    </script>
+</body>
+</html>

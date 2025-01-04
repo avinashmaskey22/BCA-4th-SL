@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mouse Events Example</title>
+    <script src="jquery.js"></script>
+    <style>
+        .box {
+            width: 200px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            margin: 10px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .hover-box {
+            background-color: lightyellow;
+        }
+
+        .click-box {
+            background-color: lightcoral;
+        }
+
+        .dblclick-box {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="click-box box">Click me!</div>
+    <div class="dblclick-box box">Double-click me!</div>
+    <div class="hover-box box">Hover over me!</div>
+
+    <script>
+        $(document).ready(function () {
+
+            // Click Event
+            $(".click-box").click(function () {
+                $(this).css("background-color", "lightblue");
+            });
+
+            // Double-Click Event
+            $(".dblclick-box").dblclick(function () {
+                alert("You double-clicked me!");
+            });
+
+            // Mouseover Event
+            $(".hover-box").mouseover(function () {
+                $(this)
+                    .css("font-size", "20px")
+                    .css("font-weight", "bold")
+                    .css("color", "purple");
+
+
+                //or this can be done
+                /* $(this).css({
+                    "font-size": "20px",
+                    "font-weight": "bold",
+                    "color": "purple"
+                }); */
+            });
+        });
+    </script>
+
+</body>
+
+</html>

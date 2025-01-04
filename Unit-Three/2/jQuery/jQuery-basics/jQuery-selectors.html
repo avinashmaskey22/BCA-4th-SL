@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <!-- Selectors Example -->
+    <div class="example">Hello Class Selector</div>
+    <div id="unique">Hello ID Selector</div>
+
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+
+    <div>
+        <p>Direct child paragraph</p>
+        <span>Not a child paragraph</span>
+    </div>
+
+    <ul>
+        <li>First Item</li>
+        <li>Second Item</li>
+    </ul>
+
+    <!-- CSS Manipulation Examples -->
+    <div class="box">Change my background color</div>
+    <p class="border-example">Add a border around me</p>
+
+
+    <script>
+        //class selector
+        /* $(document).ready(function () {
+            $(".example").css("color", "blue");
+        }); */
+
+        //id selector
+        /* $(document).ready(function () {
+            $("#unique").css("font-size", "50px");
+        }); */
+
+        //tag name selector
+        /* $(document).ready(function () {
+            $("p").css("color", "green");
+        }); */
+
+        //universal selector
+        /* $(document).ready(function () {
+            $("*").css("font-family", "Arial");
+        }); */
+
+        //parent-child selector
+        /* $(document).ready(function () {
+            $("div > p").css("font-weight", "bold");
+        }); */
+
+        //pseudo-class selectors - first child
+        /* $(document).ready(function () {
+            $("li:first").css("color", "red");
+        }); */
+
+        //pseudo-class selectors - last child
+        /* $(document).ready(function () {
+            $("li:last").css("color", "blue");
+        }); */
+
+        //changing background color
+        /* $(document).ready(function () {
+            $(".box").css("background-color", "pink");
+        }); */
+
+        //adding border 
+        /* $(document).ready(function () {
+            $(".border-example").css("border", "2px solid black");
+        }); */
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Examples of Showing and Hiding Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-container">
+        <img id="myImage" src="legend.png" alt="Image">
+        <br>
+        <button id="hideBtn">Hide Image</button>
+        <button id="showBtn">Show Image</button>
+        <button id="toggleBtn">Toggle Image</button>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script>
+        
+        $(document).ready(function() {
+            // Hide the image
+            $("#hideBtn").click(function() {
+                $("#myImage").hide();
+            });
+
+            // Show the image
+            $("#showBtn").click(function() {
+                $("#myImage").show();
+            });
+
+            // Toggle the image visibility
+            $("#toggleBtn").click(function() {
+                $("#myImage").toggle();
+            });
+        });
+    </script>
+</body>
+</html>
