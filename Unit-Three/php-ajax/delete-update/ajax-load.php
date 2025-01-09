@@ -12,7 +12,7 @@ if (mysqli_num_rows($result) > 0) {
                         <th>Id</th>
                         <th>Name</th>
                         <th colspan = "2">Action</th>
-                    <tr>';
+                    </tr>';
     while ($row = mysqli_fetch_assoc($result)) {
         $output .= "
                     <tr>
@@ -20,6 +20,7 @@ if (mysqli_num_rows($result) > 0) {
                         <td> {$row['full_name']} </td>
                         <td> <button id='edit-btn' data-eid='{$row['id']}'> Edit </button> </td>
                         <td> <button id='delete-btn' data-id='{$row['id']}'> Delete </button> </td>
+                    </tr>
                    ";
     }
     $output .= '</table>';
