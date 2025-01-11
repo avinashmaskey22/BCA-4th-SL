@@ -5,12 +5,12 @@ This repository provides notes on WordPress, covering topics such as installatio
 ---
 
 ## Table of Contents
-1. [Introduction to WordPress](#introduction-to-wordpress)
-2. [Installation Using XAMPP](#installation-using-xampp)
-3. [Theme Integration](#theme-integration)
-4. [Creating Pages](#creating-pages)
-5. [Managing Posts](#managing-posts)
-6. [Managing Widgets](#managing-widgets)
+1. [Introduction to WordPress](#1-introduction-to-wordpress)
+2. [Installation Using XAMPP](#2-installation-using-xampp)
+3. [Theme Integration](#3-theme-integration)
+4. [Creating Pages](#4-creating-pages)
+5. [Managing Posts](#5-managing-posts)
+6. [Managing Widgets](#6-managing-widgets)
 
 ---
 
